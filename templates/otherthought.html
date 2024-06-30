@@ -1,0 +1,19 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Other thought</title>
+        <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+    </head>
+    <body>
+        <h3 class="other">Other thought</h3>
+        <p class="otherthoughtt">
+            {% for item in data %}
+                <p class="thoughttext">{{ item }}</p>
+            {% endfor %}
+        </p>
+    </body>
+    <div class="us">
+        <a href="aboutus.html">About me</a>
+        <a href="index.html">My thought</a>
+    </div>
+</html>

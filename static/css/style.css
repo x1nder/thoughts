@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans';
+}
+
+.maintitle {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.us {
+    margin-top: 800px;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+input[type="text"]{
+    text-align: center;
+    background-color: grey;
+    border: none;
+}
+
+input[type="text"]:focus {
+    border-color: white;
+    outline: none;
+    color: white;
+}
+
+.other {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutme {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mainabout {
+    color: white;
+    text-align: center;
+}
+
+.codeby {
+    color: red;
+    text-align: center;
+}
+
+.otherthoughtt {
+    color: white;
+    text-align: center;
+}
+
+.thoughttext {
+    color: white;
+    text-align: center;
+}
