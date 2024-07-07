@@ -20,14 +20,21 @@ body {
 
 input[type="text"]{
     text-align: center;
-    background-color: grey;
-    border: none;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
 }
 
 input[type="text"]:focus {
-    border-color: white;
+    border-color: black;
     outline: none;
-    color: white;
+    color: black;
+}
+
+.save {
+    text-decoration: none;
+    color:white;
+    background-color: black;
 }
 
 .other {
