@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import datetime
 
 app = Flask(__name__)
 
@@ -27,6 +26,10 @@ def save_text():
     with open('saved_thought.txt', 'a') as file:
         file.write(data + '\n')
     return render_template('index.html')
+
+@app.route('/auth.html')
+def auth():
+    return render_template('auth.html')
 
 if __name__ == '__main__':
     app.run(port=4040)
